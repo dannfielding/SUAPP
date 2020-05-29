@@ -4,11 +4,6 @@ import styled from "styled-components";
 import { useHistory } from "react-router-dom";
 import Logo from "../Images/logo.png";
 
-
-const FormDiv = styled.div`
-    width: 100%;
-`;
-
 const FormLabel = styled.label`
     color: ${props => props.theme.colors.white};
     margin-right: 270px;
@@ -69,14 +64,12 @@ function LoginForm() {
     }
 
     return (
-        <FormDiv>
             <FormImage src={Logo} /> {/* Form Image. */}
             <FormLabel> Name: </FormLabel>
-            <FormInput type="text"/>
+            <FormInput type="text" name="none"/>
             <FormLabel> Email: </FormLabel>
             <FormInput type="text" />
             <FormSubmit type="submit" onClick={onLogin} />
-        </FormDiv>);
 }
 
 export default LoginForm;

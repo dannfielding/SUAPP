@@ -4,11 +4,6 @@ import styled from "styled-components";
 import { useHistory } from "react-router-dom";
 import Logo from "../Images/logo.png";
 
-
-const FormDiv = styled.div`
-    width: 100%;
-`;
-
 const FormLabel = styled.label`
     color: ${props => props.theme.colors.white};
     margin-right: 270px;
