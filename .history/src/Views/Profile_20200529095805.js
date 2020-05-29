@@ -125,10 +125,10 @@ function Profile(props) {
                     <HiddenTextHeading>Term Address</HiddenTextHeading>
                     <HiddenText>1 Trello Drive</HiddenText>
                     <HiddenText>Locksbridge</HiddenText>
-                    <HiddenText>LO16 0QU</HiddenText>
+                    <HiddenText>LO16 0AU</HiddenText>
                 </HiddenDiv>
             </ProfileImageDiv>
-            <Line /><br />
+            <Line /> <br />
             <ViewHeading>Average Grade</ViewHeading>
             <ViewParagraph>Low B</ViewParagraph>
             <br />

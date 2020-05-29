@@ -67,7 +67,7 @@ function LoginForm() {
         <form>
             <FormImage src={Logo} /> {/* Form Image. */}
             <FormLabel> Name: </FormLabel>
-            <FormInput type="text" />
+            <FormInput type="text" name="email" />
             <FormLabel> Email: </FormLabel>
             <FormInput type="text" />
             <FormSubmit type="submit" onClick={onLogin} />

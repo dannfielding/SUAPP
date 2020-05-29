@@ -66,7 +66,7 @@ function ProgressBar() {
                 <BarDiv>
                         <BarText>50% of Assignment Completed.</BarText>
                         <BarHeadingText>Tasks Left</BarHeadingText>
-                        <BarText>- 2000 word report explaining why you chose these specfic parts.</BarText>
+                        <BarText>- 2000 word report explaining why you chose these parts.</BarText>
                     </BarDiv>
                 </BarTextDiv>
             </Bar>

@@ -25,6 +25,13 @@ function App() {
     setMenuOpen(!menuOpen);
   };
 
+  const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+ 
+module.exports = {
+  plugins: [
+    new BundleAnalyzerPlugin()
+  ]
+}
 
   return (
     <div>
