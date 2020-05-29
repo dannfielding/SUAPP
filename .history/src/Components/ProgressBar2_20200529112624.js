@@ -16,7 +16,7 @@ function ProgressBar2() {
   `;
 
     const Bar = styled.div`
-    width: 100%;
+    width: 50%;
     height: 30px;
     border-radius: 10px;
     background-color: ${props => props.theme.colors.lightred};
@@ -41,21 +41,6 @@ function ProgressBar2() {
     color: ${props => props.theme.colors.white};
     border-radius: 10px;
      text-align: center;
-    `;
-
-    const BarDiv = styled.div`
-    display: none;
-    position: fixed;
-    border: 1px solid ${props => props.theme.colors.black};;
-    width: 310px;
-    margin: 0 auto;
-    background-color: ${props => props.theme.colors.white};
-    text-align: center;
-    color: white;
-
-    ${BarTextDiv}:hover & {
-        display: block;
-    }
     `;
 
     return (

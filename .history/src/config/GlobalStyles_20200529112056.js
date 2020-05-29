@@ -29,8 +29,7 @@ const GlobalStyles = createGlobalStyle`
 //Start Animation Styling
 .animation-appear,
 .animation-enter.animation-enter-active {
-  transition: opacity 200ms linear 100ms;
-  opacity: 1;
+    opacity: 1;
 }
 
 body {

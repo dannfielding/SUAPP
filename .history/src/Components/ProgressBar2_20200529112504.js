@@ -5,6 +5,7 @@ import styled from "styled-components";
 
 function ProgressBar2() {
 
+
     const BarWrapper = styled.div`
     width: 100%;
     background-color: ${props => props.theme.colors.grey};
@@ -16,7 +17,7 @@ function ProgressBar2() {
   `;
 
     const Bar = styled.div`
-    width: 100%;
+    width: 50%;
     height: 30px;
     border-radius: 10px;
     background-color: ${props => props.theme.colors.lightred};
@@ -64,9 +65,9 @@ function ProgressBar2() {
             <Bar>
                 <BarTextDiv>View More
                 <BarDiv>
-                        <BarText>100% of Assignment Completed.</BarText>
+                        <BarText>50% of Assignment Completed.</BarText>
                         <BarHeadingText>Tasks Left</BarHeadingText>
-                        <BarText>None</BarText>
+                        <BarText>- 2000 word report explaining why you chose these specfic parts.</BarText>
                     </BarDiv>
                 </BarTextDiv>
             </Bar>

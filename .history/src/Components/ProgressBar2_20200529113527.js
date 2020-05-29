@@ -7,6 +7,7 @@ function ProgressBar2() {
 
     const BarWrapper = styled.div`
     width: 100%;
+    margin-top: 100px;
     background-color: ${props => props.theme.colors.grey};
     height: 30px;
     border-radius: 10px;

@@ -16,7 +16,7 @@ function ProgressBar2() {
   `;
 
     const Bar = styled.div`
-    width: 100%;
+    width: 50%;
     height: 30px;
     border-radius: 10px;
     background-color: ${props => props.theme.colors.lightred};
@@ -63,6 +63,10 @@ function ProgressBar2() {
         <BarWrapper>
             <Bar>
                 <BarTextDiv>View More
+
+
+
+                
                 <BarDiv>
                         <BarText>100% of Assignment Completed.</BarText>
                         <BarHeadingText>Tasks Left</BarHeadingText>

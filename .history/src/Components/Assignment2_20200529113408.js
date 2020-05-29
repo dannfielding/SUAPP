@@ -9,7 +9,7 @@ function Assignment2() {
 
     const Wrapper = styled.div`
     width: 80%;
-    height: 400px;
+    height: 300x;
     text-align: left;
     margin: 0 auto;
     @media (max-width: 640px) {
@@ -39,7 +39,6 @@ function Assignment2() {
 
     const HR = styled.hr`
     width: 80%;
-    margin-top: 40px;
     background-color: ${props => props.theme.colors.black};
     border: 1px solid;
     @media (max-width: 640px) {

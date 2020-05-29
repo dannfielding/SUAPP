@@ -25,7 +25,7 @@ function Footer() {
     @media (max-width: 640px) {
       padding: 0;
       margin-top: 15px;
-      font-size: 10px;
+      font-size: 12px;
       text-align: center;
   }
   `;

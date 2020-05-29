@@ -170,10 +170,11 @@ const NavClose = styled.p`
   font-family: 'Merriweather Sans', sans-serif;
   font-size: 40px;
   width: 400px;
+  cursor: pointer;
   color: white;
   @media (max-width: 640px) {
     height: 50px;
-    font-size: 25px;
+    font-size: 35px;
 }
 `;
 
@@ -214,7 +215,7 @@ function Menu(props) {
       <NavLi active={location.pathname === "/Login"}>
         <Link to="/login"> <NavText>Logout</NavText> </Link>{" "} {/* link to login (can't figure out how authenticate login/logout so this is the solution). */}
       </NavLi>
-      <NavClose onClick={onClick}> Close </NavClose>
+      <NavClose onClick={onClick}> X </NavClose>
     </Nav>
   );
 }

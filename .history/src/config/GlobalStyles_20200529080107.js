@@ -17,7 +17,7 @@ const GlobalStyles = createGlobalStyle`
 //End Animation Styling
 .animation-exit.animation-exit-active {
   opacity: 0;
-  transition: opacity 100ms;
+  transition: opacity 100ms linear;
 }
 
 //Start and End Animation State
@@ -29,8 +29,8 @@ const GlobalStyles = createGlobalStyle`
 //Start Animation Styling
 .animation-appear,
 .animation-enter.animation-enter-active {
-  transition: opacity 200ms linear 100ms;
-  opacity: 1;
+    opacity: 1;
+    transition: opacity 200ms linear 100ms;
 }
 
 body {

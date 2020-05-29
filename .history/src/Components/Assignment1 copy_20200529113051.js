@@ -3,13 +3,13 @@ import React from "react";
 import styled from "styled-components";
 
 //Components
-import ProgressBar from './ProgressBar2';
+import ProgressBar from './ProgressBar1';
 
-function Assignment2() {
+function Assignment1() {
 
     const Wrapper = styled.div`
     width: 80%;
-    height: 400px;
+    height: 300x;
     text-align: left;
     margin: 0 auto;
     @media (max-width: 640px) {
@@ -38,14 +38,14 @@ function Assignment2() {
     `;
 
     const HR = styled.hr`
-    width: 80%;
     margin-top: 40px;
+    width: 80%;
     background-color: ${props => props.theme.colors.black};
     border: 1px solid;
     @media (max-width: 640px) {
         margin-right: auto;
         margin-left: auto;
-        margin-top: 100px;
+        margin-top: 20px;
     }
     `;
 
@@ -53,16 +53,16 @@ function Assignment2() {
     return (
 
         <Wrapper>
-            <ComponentHeading>Computer Networking - Assignment 2</ComponentHeading>
+            <ComponentHeading>Computer Building - Assignment 1</ComponentHeading>
             <ProgressBar />
-            <ComponentParagraph>This assignment is due on the 14th of June 2019.</ComponentParagraph>
-            <ComponentParagraph>You have 11 days to submit.</ComponentParagraph>
+            <ComponentParagraph>This assignment is due on the 13th of June 2019.</ComponentParagraph>
+            <ComponentParagraph>You have 10 days to submit.</ComponentParagraph>
             <ComponentHeading>Assignment Checklist:</ComponentHeading>
-            <ComponentParagraph>- Fully functional network using the methods taught in lectures.  <input type="checkbox" checked></input></ComponentParagraph>
-            <ComponentParagraph>- 1500 word report explaining how you’ve applied your learning to this assignment.  <input type="checkbox" checked></input></ComponentParagraph>
+            <ComponentParagraph>A 5 minute video of you explaining what each computer component is and it’s function.  <input type="checkbox" id="scales" name="scales" checked></input></ComponentParagraph>
+            <ComponentParagraph>2000 word report explaining why you chose these parts.  <input type="checkbox" id="scales" name="scales" unchecked></input></ComponentParagraph>
             <HR />
         </Wrapper>
     );
 }
 
-export default Assignment2;
+export default Assignment1;

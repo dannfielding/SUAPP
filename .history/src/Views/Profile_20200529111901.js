@@ -66,7 +66,7 @@ function Profile(props) {
     @media (max-width: 640px) {
         width: 80%;
         text-align: center;
-        color: ${props => props.theme.colors.black};
+        color: ${props => props.theme.colors.white};
     }
     `;
 

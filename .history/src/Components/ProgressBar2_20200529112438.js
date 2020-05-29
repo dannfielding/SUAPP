@@ -16,7 +16,7 @@ function ProgressBar2() {
   `;
 
     const Bar = styled.div`
-    width: 100%;
+    width: 50%;
     height: 30px;
     border-radius: 10px;
     background-color: ${props => props.theme.colors.lightred};

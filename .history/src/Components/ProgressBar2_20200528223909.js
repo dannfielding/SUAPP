@@ -3,7 +3,7 @@ import React from "react";
 import styled from "styled-components";
 
 
-function ProgressBar2() {
+function ProgressBar() {
 
     const BarWrapper = styled.div`
     width: 100%;
@@ -16,21 +16,21 @@ function ProgressBar2() {
   `;
 
     const Bar = styled.div`
-    width: 100%;
+    width: 50%;
     height: 30px;
     border-radius: 10px;
     background-color: ${props => props.theme.colors.lightred};
     `;
 
     const BarText = styled.p`
-    color: ${props => props.theme.colors.white};
+    color: white;
     text-align: center;
     background-color: ${props => props.theme.colors.lightred};
     align-items: center;
     `;
 
     const BarHeadingText = styled.p`
-    color: ${props => props.theme.colors.white};
+    color: white;
     text-align: center;
     text-decoration: underline;
     background-color: ${props => props.theme.colors.lightred};
@@ -38,7 +38,7 @@ function ProgressBar2() {
     `;
 
     const BarTextDiv = styled.div`
-    color: ${props => props.theme.colors.white};
+    color: white;
     border-radius: 10px;
      text-align: center;
     `;
@@ -74,4 +74,4 @@ function ProgressBar2() {
     );
 }
 
-export default ProgressBar2;
+export default ProgressBar;

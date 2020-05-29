@@ -3,7 +3,7 @@ import React from "react";
 import styled from "styled-components";
 
 
-function ProgressBar2() {
+function ProgressBar() {
 
     const BarWrapper = styled.div`
     width: 100%;
@@ -16,7 +16,7 @@ function ProgressBar2() {
   `;
 
     const Bar = styled.div`
-    width: 100%;
+    width: 50%;
     height: 30px;
     border-radius: 10px;
     background-color: ${props => props.theme.colors.lightred};
@@ -74,4 +74,4 @@ function ProgressBar2() {
     );
 }
 
-export default ProgressBar2;
+export default ProgressBar;

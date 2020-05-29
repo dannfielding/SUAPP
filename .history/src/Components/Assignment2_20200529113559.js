@@ -10,6 +10,7 @@ function Assignment2() {
     const Wrapper = styled.div`
     width: 80%;
     height: 400px;
+    margin-top: 100px;
     text-align: left;
     margin: 0 auto;
     @media (max-width: 640px) {

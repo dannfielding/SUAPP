@@ -173,7 +173,7 @@ const NavClose = styled.p`
   color: white;
   @media (max-width: 640px) {
     height: 50px;
-    font-size: 25px;
+    font-size: 35px;
 }
 `;
 
