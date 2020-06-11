@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.js": "/SUAPP/static/js/main.73936e73.chunk.js",
+    "main.js.map": "/SUAPP/static/js/main.73936e73.chunk.js.map",
+    "runtime-main.js": "/SUAPP/static/js/runtime-main.b4af54ca.js",
+    "runtime-main.js.map": "/SUAPP/static/js/runtime-main.b4af54ca.js.map",
+    "static/js/2.d05ef907.chunk.js": "/SUAPP/static/js/2.d05ef907.chunk.js",
+    "static/js/2.d05ef907.chunk.js.map": "/SUAPP/static/js/2.d05ef907.chunk.js.map",
+    "index.html": "/SUAPP/index.html",
+    "precache-manifest.f8587b793b7b3326097363e03e098f15.js": "/SUAPP/precache-manifest.f8587b793b7b3326097363e03e098f15.js",
+    "service-worker.js": "/SUAPP/service-worker.js",
+    "static/js/2.d05ef907.chunk.js.LICENSE.txt": "/SUAPP/static/js/2.d05ef907.chunk.js.LICENSE.txt",
+    "static/media/assignment_image.png": "/SUAPP/static/media/assignment_image.05b8c2c3.png",
+    "static/media/contact_image.png": "/SUAPP/static/media/contact_image.a500ac46.png",
+    "static/media/dash_image1.jpg": "/SUAPP/static/media/dash_image1.607817fa.jpg",
+    "static/media/dash_image2.jpg": "/SUAPP/static/media/dash_image2.245edfbb.jpg",
+    "static/media/lecturer1.jpg": "/SUAPP/static/media/lecturer1.54416f62.jpg",
+    "static/media/lecturer2.png": "/SUAPP/static/media/lecturer2.7d546192.png",
+    "static/media/lecturer3.png": "/SUAPP/static/media/lecturer3.0f78af7d.png",
+    "static/media/librarian.png": "/SUAPP/static/media/librarian.0fcc6b0a.png",
+    "static/media/logo.png": "/SUAPP/static/media/logo.f71dc610.png",
+    "static/media/logo2.png": "/SUAPP/static/media/logo2.e56a2922.png",
+    "static/media/map.png": "/SUAPP/static/media/map.fa95a271.png",
+    "static/media/university.png": "/SUAPP/static/media/university.e3ed0490.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b4af54ca.js",
+    "static/js/2.d05ef907.chunk.js",
+    "static/js/main.73936e73.chunk.js"
+  ]
+}
