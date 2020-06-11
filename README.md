@@ -1,3 +1,4 @@
+#SWD600 - SU APP
 
 This is a repo for a single page JavaScript application, it looks at improving the current online portal students have by making information easier to access through a number of different methods.
 
