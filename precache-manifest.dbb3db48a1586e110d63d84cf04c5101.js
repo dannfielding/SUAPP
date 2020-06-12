@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f041ad347b6871652d645840e9cd5e99",
+    "revision": "89fdc73c8572574f29517eb031001f77",
     "url": "/SUAPP/index.html"
   },
   {
-    "revision": "3579a8fc740b059cf2a6",
-    "url": "/SUAPP/static/js/2.d05ef907.chunk.js"
+    "revision": "c4f7b198dcc401478537",
+    "url": "/SUAPP/static/js/2.aac46438.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/SUAPP/static/js/2.d05ef907.chunk.js.LICENSE.txt"
+    "url": "/SUAPP/static/js/2.aac46438.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "73dbe531a98acd20f1e6",
-    "url": "/SUAPP/static/js/main.73936e73.chunk.js"
+    "revision": "a24d520fc93f4c4689d4",
+    "url": "/SUAPP/static/js/main.1ae620ad.chunk.js"
   },
   {
-    "revision": "786a829ee49725c2a482",
-    "url": "/SUAPP/static/js/runtime-main.b4af54ca.js"
+    "revision": "9c2338f7bdbf854c1d2a",
+    "url": "/SUAPP/static/js/runtime-main.c29a6f82.js"
   },
   {
     "revision": "05b8c2c3167f2a899430d744581bbdd7",
