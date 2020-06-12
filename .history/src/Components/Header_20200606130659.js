@@ -170,7 +170,6 @@ const NavClose = styled.p`
   font-size: 40px;
   width: 400px;
   color: white;
-  cursor: pointer;
   @media (max-width: 640px) {
     height: 50px;
     font-size: 25px;
