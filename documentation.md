@@ -67,3 +67,8 @@ Information is further hidden again this is when hovering over the grades bar ch
 
 # Conclusion
 Through this project, I've learnt lots, especially about how design theory can be used to design better. Researching about theories has allowed for a whole new look at how web applications should be designed and how following a new methodology would allow for a smooth process of gradual improvement to designs using the feedback of students. The feedback gained from the students showed that they wanted a simple design where they could quickly access their assignment information without having to click through multiple pages, this comes down to students wanting to access information quickly and then continuing their day.
+
+
+### Links
+[Github Repo](https://github.com/dannfielding/SUAPP)
+[Hosted Application]https://dannfielding.github.io/login)
