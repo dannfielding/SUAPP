@@ -71,4 +71,4 @@ Through this project, I've learnt lots, especially about how design theory can b
 
 ### Links
 [Github Repo](https://github.com/dannfielding/SUAPP)
-[Hosted Application](https://dannfielding.github.io/login)
+[Hosted Application](https://dannfielding.github.io/SUAPP/)
